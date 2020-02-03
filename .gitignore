@@ -339,3 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Lux.sln
+/Lux/Lux.vcxproj
+/Lux/Lux.vcxproj.filters
