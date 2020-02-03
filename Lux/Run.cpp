@@ -1,14 +1,14 @@
 //#include <Superpowered.h>
 
-#include <OpenSource/SuperpoweredWindowsAudioIO.h>
+//#include <OpenSource/SuperpoweredWindowsAudioIO.h>
+//
+//#include <SuperpoweredAdvancedAudioPlayer.h>
 
-#include <SuperpoweredAdvancedAudioPlayer.h>
-
-using namespace Superpowered;
-
-static bool audioProcessing(void* clientdata, float* audio, int numberOfFrames, int samplerate) {
-	return true;
-}
+//using namespace Superpowered;
+//
+//static bool audioProcessing(void* clientdata, float* audio, int numberOfFrames, int samplerate) {
+//	return true;
+//}
 
 int main() {
 	//Initialize(
@@ -31,7 +31,7 @@ int main() {
 
 	//);
 
-	SuperpoweredWindowsAudioIO* audioio = new SuperpoweredWindowsAudioIO(audioProcessing, nullptr, false, true);
+	//SuperpoweredWindowsAudioIO* audioio = new SuperpoweredWindowsAudioIO(audioProcessing, nullptr, false, true);
 
 	//AdvancedAudioPlayer* player = new AdvancedAudioPlayer(44100, 0, 1, 0);
 

@@ -341,3 +341,6 @@ healthchecksdb
 /Lux.sln
 /Lux/Lux.vcxproj
 /Lux/Lux.vcxproj.filters
+/Lux.vcxproj.filters
+/Lux.vcxproj
+/CppProperties.json
