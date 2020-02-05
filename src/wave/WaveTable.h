@@ -1,11 +1,11 @@
 #pragma once
 
-#include "WaveForm.h"
+#include "../../src/wave/WaveForm.h"
 
 class WaveTable {
 public:
 	WaveTable(unsigned char size);
 	~WaveTable();
 
-	WaveForm* frames;
+	WaveForm *frames;
 };

@@ -345,3 +345,5 @@ healthchecksdb
 /Lux.vcxproj
 /CppProperties.json
 /.project
+/.cproject
+/.DS_Store

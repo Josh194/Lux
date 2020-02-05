@@ -1,6 +1,5 @@
 #pragma once
 
-class EnvShape
-{
+class EnvShape {
 };
 
