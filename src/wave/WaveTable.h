@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../src/wave/WaveForm.h"
+#include "WaveForm.h"
 
 class WaveTable {
 public:

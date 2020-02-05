@@ -1,1 +1,1 @@
-#include "../../../src/oscillator/lfo/Envelope.h"
+#include "Envelope.h"

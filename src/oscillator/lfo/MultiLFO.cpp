@@ -1,1 +1,1 @@
-#include "../../../src/oscillator/lfo/MultiLFO.h"
+#include "MultiLFO.h"

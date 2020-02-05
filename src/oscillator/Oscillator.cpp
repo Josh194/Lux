@@ -1,4 +1,4 @@
-#include "../../src/oscillator/Oscillator.h"
+#include "Oscillator.h"
 
 Oscillator::Oscillator() {
 	wavetable = new WaveTable(1);

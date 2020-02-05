@@ -1,4 +1,4 @@
-#include "../../src/wave/WaveTable.h"
+#include "WaveTable.h"
 
 WaveTable::WaveTable(unsigned char size) {
 	frames = new WaveForm[size];

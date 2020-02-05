@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../src/wave/WaveTable.h"
+#include "../wave/WaveTable.h"
 
 class Oscillator {
 public:
