@@ -24,8 +24,6 @@ Channel::~Channel() {
 	delete[] wavePosition;
 }
 
-#include <iostream>
-
 void Channel::init(unsigned char pitch, void* oscillators, unsigned char numOscillators) {
 	this -> pitch = pitch;
 	this -> frequency = cnv::frequency(pitch);
