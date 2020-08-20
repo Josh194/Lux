@@ -16,8 +16,8 @@ Channel::Channel() {
 Channel::~Channel() {
 	//std::cout << "destroyed" << std::endl;
 	for(unsigned char i = 0; i < oscillators; i++) {
-		delete[] stepSize[i];
-		delete[] wavePosition[i];
+		delete stepSize[i];
+		delete wavePosition[i];
 	}
 
 	delete[] stepSize;
