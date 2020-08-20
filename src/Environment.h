@@ -11,7 +11,7 @@ constexpr unsigned short SUB_BUFFER_SIZE = 256;
 
 namespace sye {
 
-constexpr unsigned char VOICES = 4; //May not be needed
+constexpr unsigned char VOICES = 12; //May not be needed
 
 constexpr bool MONO = false;
 

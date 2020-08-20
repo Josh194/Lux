@@ -16,15 +16,13 @@ Channel::Channel() {
 Channel::~Channel() {
 	//std::cout << "destroyed" << std::endl;
 	for(unsigned char i = 0; i < oscillators; i++) {
-		delete[] stepSize[i];
-		delete[] wavePosition[i];
+		delete stepSize[i];
+		delete wavePosition[i];
 	}
 
 	delete[] stepSize;
 	delete[] wavePosition;
 }
-
-#include <iostream>
 
 void Channel::init(unsigned char pitch, void* oscillators, unsigned char numOscillators) {
 	this -> pitch = pitch;
