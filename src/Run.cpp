@@ -29,7 +29,8 @@ static int callback(const void *inputBuffer, void *outputBuffer,
 
 		synth = new Synth();
 
-		fillTest((float*) &(synth->oscillators[0].wavetable->frames[0].samples), 2048);
+		fillSine((float*) &(synth->oscillators[0].wavetable->frames[0].samples), 2048);
+		//fillTest((float*) &(synth->oscillators[0].wavetable->frames[0].samples), 2048);
 		//fillSquare((float*) &(synth->oscillators[0].wavetable->frames[0].samples), 2048);
 		//fillSawtooth((float*) &(synth->oscillators[1].wavetable->frames[0].samples), 2048);
 
